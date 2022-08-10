@@ -22,6 +22,7 @@ public class Setup_Class {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("--start-maximized");
             driver = new ChromeDriver(options);
+            driver.manage().window().maximize();
         } else if (BrowserChoice.equalsIgnoreCase("FireFox")) {
             WebDriverManager.firefoxdriver().setup();
             driver=new FirefoxDriver();

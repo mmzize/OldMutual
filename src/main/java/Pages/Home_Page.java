@@ -15,9 +15,6 @@ public class Home_Page {
     public Home_Page(WebDriver driver){
         this.driver=driver;
     }
-    @FindBy(id="")
-    WebElement Title;
-
     public void Get_Page_Title(String _expectedTitle){
 
         Assert.assertEquals(_expectedTitle,driver.getTitle(),"Actual Title Did Not Match The Expected Title");

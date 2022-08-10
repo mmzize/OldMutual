@@ -15,7 +15,6 @@ public class Take_Screenshot {
 
         TimeUnit.SECONDS.sleep(5);
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        //Copy the file to a location and use try catch block to handle exception
         try {
             FileUtils.copyFile(screenshot, new File(".//ScreenShots/" + screenshotName+ ".png"));
         } catch (IOException e) {
