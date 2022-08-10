@@ -1,6 +1,7 @@
 Helpers\Report_Helper.class
-Helpers\Take_Screenshot.class
+Helpers\Scroll_Helper.class
 Pages\Personal_Loans.class
+Tests\Test_Runner.class
+Helpers\Take_Screenshot.class
 Pages\Home_Page.class
 Setup\Setup_Class.class
-Tests\Test_Runner.class

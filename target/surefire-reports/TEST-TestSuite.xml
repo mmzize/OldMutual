@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="TestSuite" time="10.61" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="TestSuite" time="61.259" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
@@ -64,5 +64,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Tests.Test_Runner" name="Verify_Page_Title" time="0.011"/>
+  <testcase classname="Tests.Test_Runner" name="Verify_Page_Title_Test" time="5.857"/>
+  <testcase classname="Tests.Test_Runner" name="Navigate_To_Personal_Loans_Test" time="8.017"/>
+  <testcase classname="Tests.Test_Runner" name="Click_Calculate_Button_Test" time="5.851"/>
+  <testcase classname="Tests.Test_Runner" name="Select_Amount_From_Dropdown_Test" time="6.027"/>
+  <testcase classname="Tests.Test_Runner" name="Click_Next_Button_Test" time="5.702"/>
+  <testcase classname="Tests.Test_Runner" name="Select_Period_From_Dropdown_Test" time="5.732"/>
+  <testcase classname="Tests.Test_Runner" name="Calculate_Installment_Test" time="0.113"/>
+  <testcase classname="Tests.Test_Runner" name="Verify_Installment_Amount_Test" time="10.38"/>
 </testsuite>
