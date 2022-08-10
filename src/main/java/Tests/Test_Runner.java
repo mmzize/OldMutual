@@ -36,8 +36,16 @@ public class Test_Runner extends Report_Helper {
         test=extent.createTest("Navigate_To_Personal_Loans_Test");
         test.log(Status.PASS,"Click Learn More Button");
         scroll_helper.Scroll(driver);
-        personal_loans.Navigate_To_Personal_Loans_Page();
         screenshot.takeSnapShot(driver,"Learn More Button");
+        personal_loans.Navigate_To_Personal_Loans_Page();
+
+    }
+    @Test(priority = 3)
+    public void Click_Calculate_Button_Test() throws InterruptedException {
+        test=extent.createTest("Click_Calculate_Button_Test");
+        test.log(Status.PASS,"Click Calculate Button");
+        screenshot.takeSnapShot(driver,"Calculate Button");
+        personal_loans.Click_Calculate_Button();
     }
 
     @AfterSuite
